@@ -34,3 +34,11 @@
         height: 100%;
     }
 }
+
+div#formulario > h1 {
+    font-size: 1em;
+}
+
+div#formulario > p {
+    font-size: 0.6em;
+}
