@@ -37,11 +37,20 @@ section#login {
     height: 350px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
+    display: block;
     background: #5f2c82 url(../imagens/pexels-namukolo-siyumbwa-62572692-29022624.jpg) no-repeat;
     background-size: cover;
     background-position: right bottom;
     height: 150px;
+}
+
+selection#login > div#formulario {
+    display: block;
+    padding: 10px;
 }
